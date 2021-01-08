@@ -31,7 +31,7 @@ public class HelloServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		String yourName = request.getParameter("username");
 		if(yourName ==null){
-			yourName = "Vilas";
+			yourName = "Kanisque";
 		}
 		PrintWriter writer = response.getWriter();
 		writer.println("<h1>Hello " + yourName + "</h1>");
